@@ -1,0 +1,57 @@
+.container {
+  text-align: center;
+  direction: rtl;
+}
+.lcolumn {
+  float: left;
+  width: 28%;
+  padding: 5px;
+  direction: rtl;
+  padding-right: 20px;
+}
+
+.rcolumn {
+  float: left;
+  width: 72%;
+  padding: 5px;
+  direction: rtl;
+}
+
+.row {
+  max-width: 1200px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 775px) {
+  .lcolumn,
+  .rcolumn {
+    width: 100%;
+  }
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  direction: rtl;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .column2 {
+    width: 100%;
+  }
+}
