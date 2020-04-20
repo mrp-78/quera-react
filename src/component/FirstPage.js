@@ -13,7 +13,7 @@ class FirstPage extends Component {
               style={{
                 boxShadow:
                   "0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39)",
-                padding: "5px"
+                padding: "5px",
               }}
             >
               <Carousel indicators={false}>
@@ -35,12 +35,432 @@ class FirstPage extends Component {
             </div>
             <div class="row2">
               <div class="column2">
-                <h2>Column 1</h2>
-                <p>Some text..</p>
+                <div
+                  class="d-flex flex-row"
+                  style={{
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                    padding: "5px",
+                  }}
+                >
+                  <div
+                    class="d-flex flex-row"
+                    style={{
+                      flexDirection: "row",
+                      justifyContent: "flex-right",
+                    }}
+                  >
+                    <img
+                      src={require("../assets/code-interface-symbol-of-signs.svg")}
+                      style={{
+                        width: "35px",
+                        height: "35px",
+                      }}
+                    />
+                    <div
+                      style={{
+                        fontWeight: "bold",
+                        color: "#E25252",
+                        margin: "5px",
+                        marginRight: "15px",
+                      }}
+                    >
+                      تمرین کنید
+                    </div>
+                  </div>
+                  <a
+                    href="#"
+                    style={{
+                      fontSize: "12px",
+                      flexDirection: "row",
+                      justifyContent: "flex-left",
+                      marginTop: "15px",
+                    }}
+                  >
+                    همه سوالات
+                  </a>
+                </div>
+                <div
+                  style={{
+                    borderColor: "#E25252",
+                    borderTopWidth: "4px",
+                    borderLeftWidth: "0",
+                    borderRightWidth: "0",
+                    borderBottomWidth: "0",
+                    borderStyle: "solid",
+                    borderRadius: "10px",
+                    marginTop: "5px",
+                    boxSizing: "border-box",
+                  }}
+                >
+                  <div
+                    class="list-group-item"
+                    style={{
+                      borderTopWidth: "0",
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                      padding: "10px",
+                    }}
+                  >
+                    <div
+                      style={{
+                        fontSize: "15px",
+                        fontWeight: "bold",
+                        marginBottom: "5px",
+                      }}
+                    >
+                      تعداد سوالات حل شده
+                    </div>
+                    <div
+                      class="d-flex flex-row"
+                      style={{ justifyContent: "center" }}
+                    >
+                      <div style={{ margin: "5px", marginLeft: "20px" }}>
+                        <div
+                          style={{
+                            color: "#f2711c",
+                            fontWeight: "bold",
+                            fontSize: "30px",
+                          }}
+                        >
+                          34
+                        </div>
+                        <a href="#" style={{ fontSize: "15px" }}>
+                          تکنولوژي
+                        </a>
+                      </div>
+                      <div style={{ margin: "5px", marginLeft: "20px" }}>
+                        <div
+                          style={{
+                            color: "#dc4040",
+                            fontWeight: "bold",
+                            fontSize: "30px",
+                          }}
+                        >
+                          95
+                        </div>
+                        <a href="#" style={{ fontSize: "15px" }}>
+                          مسابقه
+                        </a>
+                      </div>
+                      <div style={{ margin: "5px", marginLeft: "20px" }}>
+                        <div
+                          style={{
+                            color: "#25c257",
+                            fontWeight: "bold",
+                            fontSize: "30px",
+                          }}
+                        >
+                          41
+                        </div>
+                        <a href="#" style={{ fontSize: "15px" }}>
+                          دانشگاهی
+                        </a>
+                      </div>
+                      <div style={{ margin: "5px" }}>
+                        <div
+                          style={{
+                            color: "#00B5AD",
+                            fontWeight: "bold",
+                            fontSize: "30px",
+                          }}
+                        >
+                          0
+                        </div>
+                        <a href="#" style={{ fontSize: "15px" }}>
+                          المپیاد
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="list-group-item"
+                  style={{
+                    borderTopWidth: "0",
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                    padding: "10px",
+                  }}
+                >
+                  <div
+                    style={{
+                      fontSize: "15px",
+                      marginBottom: "5px",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    سوالات پیشنهادی
+                  </div>
+
+                  <div
+                    class="d-flex flex-row"
+                    style={{
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                      paddingTop: "10px",
+                    }}
+                  >
+                    <a
+                      href="#"
+                      class="d-flex flex-row"
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "flex-right",
+                        fontSize: "15px",
+                      }}
+                    >
+                      مسئله آب
+                    </a>
+                    <div
+                      class="d-flex flex-row"
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "flex-right",
+                        fontSize: "15px",
+                      }}
+                    >
+                      آسان
+                    </div>
+                    <div
+                      class="d-flex flex-row"
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "flex-right",
+                        fontSize: "15px",
+                      }}
+                    >
+                      475 حل
+                    </div>
+                  </div>
+                  <hr
+                    class="dolid"
+                    style={{ margin: "10px", padding: "0" }}
+                  ></hr>
+                  <div
+                    class="d-flex flex-row"
+                    style={{
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                    }}
+                  >
+                    <a
+                      href="#"
+                      class="d-flex flex-row"
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "flex-right",
+                        fontSize: "15px",
+                      }}
+                    >
+                      ترامپ لین
+                    </a>
+                    <div
+                      class="d-flex flex-row"
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "flex-right",
+                        fontSize: "15px",
+                      }}
+                    >
+                      متوسط
+                    </div>
+                    <div
+                      class="d-flex flex-row"
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "flex-right",
+                        fontSize: "15px",
+                      }}
+                    >
+                      125 حل
+                    </div>
+                  </div>
+                  <hr
+                    class="dolid"
+                    style={{ margin: "10px", padding: "0" }}
+                  ></hr>
+                  <div
+                    class="d-flex flex-row"
+                    style={{
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                      paddingLeft: "10px",
+                      paddingRight: "10px",
+                    }}
+                  >
+                    <a
+                      href="#"
+                      class="d-flex flex-row"
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "flex-right",
+                        fontSize: "15px",
+                      }}
+                    >
+                      جوراب ها
+                    </a>
+                    <div
+                      class="d-flex flex-row"
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "flex-right",
+                        fontSize: "15px",
+                      }}
+                    >
+                      سخت
+                    </div>
+                    <div
+                      class="d-flex flex-row"
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "flex-right",
+                        fontSize: "15px",
+                      }}
+                    >
+                      26 حل
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="column2">
-                <h2>Column 2</h2>
-                <p>Some text..</p>
+                <div
+                  class="d-flex flex-row"
+                  style={{
+                    flexDirection: "row",
+                    justifyContent: "space-between",
+                    padding: "5px",
+                  }}
+                >
+                  <div
+                    class="d-flex flex-row"
+                    style={{
+                      flexDirection: "row",
+                      justifyContent: "flex-right",
+                    }}
+                  >
+                    <img
+                      src={require("../assets/university-building.svg")}
+                      style={{
+                        width: "35px",
+                        height: "35px",
+                      }}
+                    />
+                    <div
+                      style={{
+                        fontWeight: "bold",
+                        color: "#00B5AD",
+                        margin: "5px",
+                        marginRight: "15px",
+                      }}
+                    >
+                      آخرین کلاس های من
+                    </div>
+                  </div>
+                  <a
+                    href="#"
+                    style={{
+                      fontSize: "12px",
+                      flexDirection: "row",
+                      justifyContent: "flex-left",
+                      marginTop: "15px",
+                    }}
+                  >
+                    همه کلاس ها
+                  </a>
+                </div>
+                <div
+                  style={{
+                    borderColor: "#00B5AD",
+                    borderTopWidth: "4px",
+                    borderLeftWidth: "0",
+                    borderRightWidth: "0",
+                    borderBottomWidth: "0",
+                    borderStyle: "solid",
+                    borderRadius: "10px",
+                    marginTop: "5px",
+                    boxSizing: "border-box",
+                  }}
+                >
+                  <div
+                    class="list-group-item d-flex flex-row"
+                    style={{
+                      borderTopWidth: "0",
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                      padding: "10px",
+                    }}
+                  >
+                    <div
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "flex-right",
+                        fontSize: "15px",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <a href="#">طراحی الگوریتم ها</a>
+                      <div style={{ color: "gray", fontSize: "12px" }}>
+                        دکتر رامک قوامی زاده
+                      </div>
+                    </div>
+                    <div style={{ fontSize: "12px", marginTop: "10px" }}>
+                      آخرین تمرین: <a href="3">تمرین دوم</a>
+                    </div>
+                    <div
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "flex-left",
+                        fontSize: "15px",
+                        fontSize: "12px",
+                      }}
+                    >
+                      <div>72 عضو</div>
+                      <div>بهار 98-99</div>
+                    </div>
+                  </div>
+                  <div
+                    class="list-group-item d-flex flex-row"
+                    style={{
+                      borderTopWidth: "0",
+                      flexDirection: "row",
+                      justifyContent: "space-between",
+                      padding: "10px",
+                    }}
+                  >
+                    <div
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "flex-right",
+                        fontSize: "15px",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      <a href="#">ساختمان داده ها</a>
+                      <div style={{ color: "gray", fontSize: "12px" }}>
+                        دکتر ابراهیمی مقدم
+                      </div>
+                    </div>
+                    <div style={{ fontSize: "12px", marginTop: "10px" }}>
+                      آخرین تمرین: <a href="3">پروژه پایانی</a>
+                    </div>
+                    <div
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "flex-left",
+                        fontSize: "15px",
+                        fontSize: "12px",
+                      }}
+                    >
+                      <div>41 عضو</div>
+                      <div>پاییز 98-99</div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
