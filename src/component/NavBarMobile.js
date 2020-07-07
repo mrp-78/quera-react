@@ -9,37 +9,36 @@ class NavBarMobile extends Component {
         text: "کلاس ها",
         color: "#000000",
         icon: "university.png",
-        width: "90px"
+        width: "90px",
       },
       {
         text: "سوالات",
         color: "#000000",
         icon: "coding.svg",
-        width: "90px"
+        width: "90px",
       },
       {
         text: "مسابقات",
         color: "#000000",
         icon: "chocolate.svg",
-        width: "100px"
+        width: "100px",
       },
       {
         text: "استخدام",
         color: "#00B5AD",
         icon: "bag.svg",
-        width: "90px"
+        width: "90px",
       },
       {
         text: "کالج",
         color: "#E25252",
         icon: "college.svg",
-        width: "70px"
-      }
-    ]
+        width: "70px",
+      },
+    ],
   };
   render() {
     return (
-      //   <nav className="topnav navbar navbar-expand navbar-light bg-light shadow-sm mb-5 bg-white rounded p-0 d-flex flex-row-reverse">
       <Accordion>
         <Card>
           <Card.Header
@@ -47,7 +46,7 @@ class NavBarMobile extends Component {
             style={{
               flexDirection: "row",
               justifyContent: "space-between",
-              alignItems: "center"
+              alignItems: "center",
             }}
           >
             <a
@@ -57,9 +56,9 @@ class NavBarMobile extends Component {
                 width: "60px",
                 height: "60px",
                 marginRight: "1px",
-                // fontFamily: "Tohoma",
+                fontFamily: "Tahoma",
                 flexDirection: "row",
-                justifyContent: "flex-right"
+                justifyContent: "flex-right",
               }}
             >
               <img
@@ -77,7 +76,7 @@ class NavBarMobile extends Component {
                   href="#"
                   style={{
                     width: "45px",
-                    height: "60px"
+                    height: "60px",
                   }}
                 >
                   <img
@@ -86,7 +85,7 @@ class NavBarMobile extends Component {
                       width: "25px",
                       height: "25px",
                       objectFit: "contain",
-                      marginTop: "12px"
+                      marginTop: "12px",
                     }}
                   ></img>
                 </a>
@@ -103,14 +102,14 @@ class NavBarMobile extends Component {
           </Card.Header>
           <Accordion.Collapse eventKey="0">
             <ListGroup>
-              {this.state.leftItems.map(item => (
+              {this.state.leftItems.map((item) => (
                 <ListGroup.Item>
                   <a
                     style={{
                       alignSelf: "right",
                       alignItems: "center",
-                      // fontFamily: "Iranian",
-                      fontSize: "18px"
+                      fontFamily: "Tahoma",
+                      fontSize: "18px",
                     }}
                     className="d-flex flex-row-reverse"
                   >
@@ -120,7 +119,7 @@ class NavBarMobile extends Component {
                         width: "17px",
                         height: "17px",
                         marginTop: "2px",
-                        marginLeft: "6px"
+                        marginLeft: "6px",
                       }}
                     ></img>
                     <div style={{ fontSize: "16px", color: item.color }}>
@@ -134,8 +133,8 @@ class NavBarMobile extends Component {
                   style={{
                     alignSelf: "right",
                     alignItems: "center",
-                    // fontFamily: "Iranian",
-                    fontSize: "18px"
+                    fontFamily: "Tahoma",
+                    fontSize: "18px",
                   }}
                   className="d-flex flex-row-reverse"
                 >
@@ -144,7 +143,8 @@ class NavBarMobile extends Component {
                     style={{
                       width: "20px",
                       height: "20px",
-                      marginLeft: "10px"
+                      marginLeft: "10px",
+                      fontFamily: "Tahoma",
                     }}
                   ></img>
                   محمدرضا پاکزادیان
@@ -155,8 +155,8 @@ class NavBarMobile extends Component {
                   style={{
                     alignSelf: "right",
                     alignItems: "center",
-                    // fontFamily: "Tahoma",
-                    fontSize: "18px"
+                    fontFamily: "Tahoma",
+                    fontSize: "18px",
                   }}
                   className="d-flex flex-row-reverse"
                 >
@@ -165,10 +165,10 @@ class NavBarMobile extends Component {
                     style={{
                       width: "20px",
                       height: "20px",
-                      marginLeft: "10px"
+                      marginLeft: "10px",
                     }}
                   ></img>
-                  تنضیمات
+                  تنظیمات
                 </a>
               </ListGroup.Item>
               <ListGroup.Item href="#/action-3">
@@ -176,8 +176,8 @@ class NavBarMobile extends Component {
                   style={{
                     alignSelf: "right",
                     alignItems: "center",
-                    // fontFamily: "Tahoma",
-                    fontSize: "18px"
+                    fontFamily: "Tahoma",
+                    fontSize: "18px",
                   }}
                   className="d-flex flex-row-reverse"
                 >
@@ -186,7 +186,7 @@ class NavBarMobile extends Component {
                     style={{
                       width: "20px",
                       height: "20px",
-                      marginLeft: "10px"
+                      marginLeft: "10px",
                     }}
                   ></img>
                   خروج

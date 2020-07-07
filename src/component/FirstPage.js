@@ -63,6 +63,7 @@ class FirstPage extends Component {
                         color: "#E25252",
                         margin: "5px",
                         marginRight: "15px",
+                        fontFamily: "Tahoma",
                       }}
                     >
                       تمرین کنید
@@ -392,7 +393,7 @@ class FirstPage extends Component {
                       borderTopWidth: "0",
                       flexDirection: "row",
                       justifyContent: "space-between",
-                      padding: "10px",
+                      padding: "10px 20px",
                     }}
                   >
                     <div
@@ -408,8 +409,11 @@ class FirstPage extends Component {
                         دکتر رامک قوامی زاده
                       </div>
                     </div>
-                    <div style={{ fontSize: "12px", marginTop: "10px" }}>
-                      آخرین تمرین: <a href="3">تمرین دوم</a>
+                    <div style={{ fontSize: "12px" }}>
+                      آخرین تمرین:{" "}
+                      <div>
+                        <a href="3">تمرین دوم</a>
+                      </div>
                     </div>
                     <div
                       style={{
@@ -429,7 +433,7 @@ class FirstPage extends Component {
                       borderTopWidth: "0",
                       flexDirection: "row",
                       justifyContent: "space-between",
-                      padding: "10px",
+                      padding: "10px 20px",
                     }}
                   >
                     <div
@@ -445,8 +449,11 @@ class FirstPage extends Component {
                         دکتر ابراهیمی مقدم
                       </div>
                     </div>
-                    <div style={{ fontSize: "12px", marginTop: "10px" }}>
-                      آخرین تمرین: <a href="3">پروژه پایانی</a>
+                    <div style={{ fontSize: "12px" }}>
+                      آخرین تمرین:{" "}
+                      <div>
+                        <a href="3">پروژه پایانی</a>
+                      </div>
                     </div>
                     <div
                       style={{

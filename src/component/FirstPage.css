@@ -1,6 +1,7 @@
 .container {
   text-align: center;
   direction: rtl;
+  font-family: Tahoma;
 }
 .lcolumn {
   float: left;

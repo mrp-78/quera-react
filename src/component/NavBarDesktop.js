@@ -9,33 +9,33 @@ class NavBarDesktop extends Component {
         text: "کلاس ها",
         color: "#000000",
         icon: "university.png",
-        width: "90px"
+        width: "95px",
       },
       {
         text: "سوالات",
         color: "#000000",
         icon: "coding.svg",
-        width: "90px"
+        width: "90px",
       },
       {
         text: "مسابقات",
         color: "#000000",
         icon: "chocolate.svg",
-        width: "100px"
+        width: "100px",
       },
       {
         text: "استخدام",
         color: "#00B5AD",
         icon: "bag.svg",
-        width: "90px"
+        width: "90px",
       },
       {
         text: "کالج",
         color: "#E25252",
         icon: "college.svg",
-        width: "70px"
-      }
-    ]
+        width: "70px",
+      },
+    ],
   };
   render() {
     return (
@@ -46,8 +46,8 @@ class NavBarDesktop extends Component {
           style={{
             width: "60px",
             height: "60px",
-            marginRight: "1px"
-            // fontFamily: "Tohoma"
+            marginRight: "1px",
+            fontFamily: "Tahoma",
           }}
         >
           <img
@@ -60,7 +60,7 @@ class NavBarDesktop extends Component {
           id="navbarSupportedContent"
         >
           <ul class="nav navbar-nav navbar-right d-flex flex-row-reverse">
-            {this.state.leftItems.map(item => (
+            {this.state.leftItems.map((item) => (
               <li>
                 <a
                   className="nav-link d-flex flex-row-reverse p-1 m-1 mouseBackground"
@@ -68,8 +68,8 @@ class NavBarDesktop extends Component {
                   style={{
                     width: item.width,
                     height: "35px",
-                    // fontFamily: "Tohoma",
-                    borderRadius: "8px"
+                    fontFamily: "Tahoma",
+                    borderRadius: "8px",
                   }}
                 >
                   <img
@@ -78,7 +78,7 @@ class NavBarDesktop extends Component {
                       width: "17px",
                       height: "17px",
                       marginTop: "2px",
-                      marginLeft: "6px"
+                      marginLeft: "6px",
                     }}
                   ></img>
                   <div style={{ fontSize: "16px", color: item.color }}>
@@ -100,7 +100,7 @@ class NavBarDesktop extends Component {
                   height: "60px",
                   backgroundColor: "white",
                   borderColor: "white",
-                  alignContent: "center"
+                  alignContent: "center",
                 }}
               >
                 <img
@@ -109,7 +109,7 @@ class NavBarDesktop extends Component {
                   style={{
                     width: "45px",
                     height: "45px",
-                    objectFit: "contain"
+                    objectFit: "contain",
                   }}
                 ></img>
               </Dropdown.Toggle>
@@ -119,8 +119,8 @@ class NavBarDesktop extends Component {
                     style={{
                       alignSelf: "right",
                       alignItems: "center",
-                      // fontFamily: "Iranian",
-                      fontSize: "18px"
+                      fontFamily: "Iranian",
+                      fontSize: "18px",
                     }}
                     className="d-flex flex-row-reverse"
                   >
@@ -129,7 +129,8 @@ class NavBarDesktop extends Component {
                       style={{
                         width: "20px",
                         height: "20px",
-                        marginLeft: "10px"
+                        marginLeft: "10px",
+                        fontFamily: "Tahoma",
                       }}
                     ></img>
                     محمدرضا پاکزادیان
@@ -140,8 +141,8 @@ class NavBarDesktop extends Component {
                     style={{
                       alignSelf: "right",
                       alignItems: "center",
-                      // fontFamily: "Tahoma",
-                      fontSize: "18px"
+                      fontFamily: "Tahoma",
+                      fontSize: "18px",
                     }}
                     className="d-flex flex-row-reverse"
                   >
@@ -150,10 +151,10 @@ class NavBarDesktop extends Component {
                       style={{
                         width: "20px",
                         height: "20px",
-                        marginLeft: "10px"
+                        marginLeft: "10px",
                       }}
                     ></img>
-                    تنضیمات
+                    تنظیمات
                   </a>
                 </Dropdown.Item>
                 <Dropdown.Item href="#/action-3">
@@ -161,8 +162,8 @@ class NavBarDesktop extends Component {
                     style={{
                       alignSelf: "right",
                       alignItems: "center",
-                      // fontFamily: "Tahoma",
-                      fontSize: "18px"
+                      fontFamily: "Tahoma",
+                      fontSize: "18px",
                     }}
                     className="d-flex flex-row-reverse"
                   >
@@ -171,7 +172,7 @@ class NavBarDesktop extends Component {
                       style={{
                         width: "20px",
                         height: "20px",
-                        marginLeft: "10px"
+                        marginLeft: "10px",
                       }}
                     ></img>
                     خروج
@@ -192,7 +193,7 @@ class NavBarDesktop extends Component {
                   width: "25px",
                   height: "25px",
                   objectFit: "contain",
-                  marginTop: "12px"
+                  marginTop: "12px",
                 }}
               ></img>
             </a>
